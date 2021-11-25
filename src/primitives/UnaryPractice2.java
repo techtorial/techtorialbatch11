@@ -23,6 +23,15 @@ public class UnaryPractice2 {
 
         System.out.println(--total); // KK
 
+        char ch = 'a';
+        System.out.println(--ch);
+        System.out.println(ch);
+        System.out.println(++ch);
+        ch++;
+        ++ch;
+        System.out.println(ch);
+        System.out.println(--ch);
+
 
     }
 }
