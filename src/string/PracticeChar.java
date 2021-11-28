@@ -4,26 +4,20 @@ import java.util.Scanner;
 
 public class PracticeChar {
 
-
-    // abcdefghijklmnopqrstuvwxyz
-    // If the user enters char that is not an English letter
-    // code should print false
-    // If user enters English letter code should print true
     public static void main(String[] args) {
-        // ASCII table
-        // The table that all chars has a unique value
-//int charValueA = 'a';
-//        System.out.println(charValueA);
-//        char a = 97;
-//        char a2 = 'a';
-        System.out.println("Please enter a char letter");
-        char ch = 'Y';
-        // if this ch is a letter or not.
-        // If the value of the char between char a and char z
-        // it means this char is a letter
-        boolean isLetter = ch>='a'&&ch<='z'||ch>='A'&&ch<='Z';
-        System.out.println(isLetter);
-
+        String device = "microphone";
+        char ch = device.charAt(0);
+        System.out.println(ch);
+        char ch1 = device.charAt(4);
+        System.out.println(ch1);
+        System.out.println(device.charAt(9));
+        Scanner input = new Scanner(System.in);
+        System.out.println("please enter a word");
+        String word = input.next();
+        System.out.println("this is your first letter of the string >> "+word.charAt(0));
+        System.out.println("Please enter another word");
+        // without storing incoming string value, taking a letter from it and print
+        System.out.println("!!!!!!!!!!! "+input.next().charAt(0));
 
 
 
