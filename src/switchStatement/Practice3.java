@@ -26,7 +26,9 @@ public class Practice3 {
                 double b = input.nextDouble();
                 System.out.println("The area of triangle is: " +((b * h )/ 2));
                 break;
-
+            default:
+                System.out.println("your shape selection is not an option for us");
+                break;
             case "rectangle":
                 System.out.println("Please enter length of rectangle");
                 double l = input.nextDouble();
@@ -35,9 +37,16 @@ public class Practice3 {
 
                 System.out.println("The area of rectangle is: "+ l * w);
                 break;
-            default:
-                System.out.println("your shape selection is not an option for us");
-                break;
+
+        }
+        double d = 2.5;
+        short s = 2;
+        boolean b =true;
+        long l = 2;
+        byte by = 3;
+        switch (by){
+            case 5:
+                System.out.println("^^^^^^^^");
         }
 
     }
