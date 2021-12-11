@@ -1,4 +1,4 @@
-package loops;
+package loops.while_DoWhile;
 
 public class DoWilePractice1 {
 
