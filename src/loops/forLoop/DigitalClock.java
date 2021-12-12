@@ -13,6 +13,10 @@ public class DigitalClock {
             inner:
             for (int minutes = 0; minutes <= 59; minutes++) {
 
+                if (minutes >=10 && minutes <=12){
+                    continue;
+                }
+
                 if (minutes >= 30) {
 
                     break label;
@@ -22,7 +26,7 @@ public class DigitalClock {
 
                     System.out.println(hour + " : " + minutes + " : " + sec);
                     if (sec ==10)
-                    break inner;
+                    break ;
                 }
 
             }
