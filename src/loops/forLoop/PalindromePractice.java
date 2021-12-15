@@ -14,9 +14,9 @@ public class PalindromePractice {
             reverse += str.charAt(i);
         }
         if (reverse.equalsIgnoreCase(str)) {
-            System.out.println("it is a palindrome string");
+            System.out.println(str+ " is a palindrome string");
         } else {
-            System.out.println("It is NOT a palindrome string");
+            System.out.println(str+" It is NOT a palindrome string");
         }
         // find out if given number is palindrome number or not
 
