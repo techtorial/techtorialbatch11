@@ -37,5 +37,7 @@ public class Practice1 {
         System.out.println(Arrays.toString(studentIds)); // [21, 99, 41, 0, 0]
                                                         // it will print out all elements as array from array
         System.out.println(studentIds);
+
+        Arrays.sort(studentIds);
     }
 }

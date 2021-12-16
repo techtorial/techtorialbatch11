@@ -6,7 +6,7 @@ public class Practice2 {
     public static void main(String[] args) {
 
         int[] numbers = {4, 3, 6, 7, 11, 45};
-        System.out.println(numbers[3]);// 7
+        System.out.println(numbers[3]); // 7
 
         //  numbers[6] = 66; ArrayIndexOutOfBoundsException
 
