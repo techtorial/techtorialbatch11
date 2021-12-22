@@ -16,7 +16,6 @@ public class Task6 {
           String  str="";
             for (int i=colors[a].length()-1; i >=0; i-- ){
 
-
                 str += colors[a].charAt(i);
 
             }
@@ -24,7 +23,5 @@ public class Task6 {
         }
         System.out.println(Arrays.toString(colors));
         System.out.println(Arrays.toString(reversed));
-
-
     }
 }
