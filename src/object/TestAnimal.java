@@ -48,8 +48,9 @@ public class TestAnimal {
         cat.run();// energy of the cat is 70
         cat.sleep();
         System.out.println(cat.energy);
+        System.out.println(cat);
 
-        // charge up the animal when they sleep
+
 
 
 
