@@ -7,17 +7,18 @@ public class StaticPetPractice {
     String color;
     static double food = 20;
 
-    public static void eat(){
+    public static void eat() {
 
         food -= 1;
-        System.out.println("food amount is now: "+food);
+        System.out.println("food amount is now: " + food);
         // to call non-static method into static method,
         // you need to create object
         StaticPetPractice pet9 = new StaticPetPractice();
-       // pet9.play();
+        // pet9.play();
         pet9.color = "red";
     }
-    public void play(){
+
+    public void play() {
         System.out.println("Pet is playing");
         eat();
         StaticPetPractice.eat();
