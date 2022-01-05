@@ -1,10 +1,7 @@
 package wrapperClass;
-
 import object.Student;
-
-import java.util.ArrayList;
-
 public class Practice1 {
+
     public static void main(String[] args) {
 
         byte b = 2;
@@ -23,6 +20,10 @@ public class Practice1 {
         System.out.println(ch);
 
         Integer integer = new Integer(4);
+        Integer integer1 = new Integer("4");
+        System.out.println(integer1);
+       int integer2 = new Integer("4");
+        System.out.println( integer2+9);
 
         Float fl = new Float(3.4);
         Double db = new Double(4.5);
@@ -30,6 +31,8 @@ public class Practice1 {
 
         Boolean bl = new Boolean(true);
         System.out.println(bl);
+        Boolean bl1 = new Boolean("123");
+        System.out.println(bl1);
 
 
         int i = new Integer(22);// UnBoxing --> when java converts Wrapper class object to primitive data
@@ -42,5 +45,7 @@ public class Practice1 {
         // array
         int[] numbers = {i, number};
         System.out.println(number * 25);
+
+
     }
 }
