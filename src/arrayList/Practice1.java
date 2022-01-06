@@ -1,7 +1,7 @@
 package arrayList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 
 public class Practice1 {
     public static void main(String[] args) {
@@ -9,6 +9,7 @@ public class Practice1 {
         ArrayList list1 = new ArrayList();
         ArrayList list2 = new ArrayList(10);
 
+       // System.out.println(list2.get(6));
 
         list1.add("Rose");
         list1.add(21);
