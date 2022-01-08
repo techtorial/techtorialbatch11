@@ -15,6 +15,8 @@ public class Store {
 
 
         ArrayList<Computer> list = new ArrayList<>();
+
+
         list.add(computer1);
         list.add(computer2);
         list.add(computer3);
@@ -23,15 +25,20 @@ public class Store {
 
         System.out.println(list);
    // reach out all mac computers and show them
-
-        for ( Computer device: list){
+        ArrayList <Computer> macComputers = new ArrayList<>();
+        for (Computer device: list){
 
             if (device.brand.equalsIgnoreCase("mac")){
                 System.out.println(device);
                 System.out.println(device.brand);
                 System.out.println(device.price);
+
+                macComputers.add(device);
+              //  list.remove(device);
             }
         }
+        System.out.println(macComputers);
+        System.out.println(list);
 
     }
 }

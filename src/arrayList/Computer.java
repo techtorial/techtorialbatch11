@@ -8,10 +8,10 @@ public class Computer {
     String color;
     int storage;
 
-    public Computer(String brand, double price, double screenSize, String color, int storage){
-        this.brand=brand;
-        this.color= color;
-        this.price= price;
+    public Computer(String brand, double price, double screenSize, String color, int storage) {
+        this.brand = brand;
+        this.color = color;
+        this.price = price;
         this.screenSize = screenSize;
         this.storage = storage;
     }

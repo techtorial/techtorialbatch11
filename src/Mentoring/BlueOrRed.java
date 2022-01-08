@@ -22,6 +22,9 @@ public class BlueOrRed {
         if (indexB<indexL&&indexL<indexU&&indexU<indexE){
             System.out.println("blue");
         }
+
+
+        Methods methods = new Methods();
     }
 
 }}
