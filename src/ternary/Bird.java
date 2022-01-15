@@ -8,6 +8,5 @@ public class Bird extends Animal {
         Bird animal = new Bird();
         animal.runProtected();
 
-
     }
 }

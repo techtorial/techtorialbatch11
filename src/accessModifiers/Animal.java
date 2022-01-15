@@ -6,6 +6,10 @@ public class Animal {
 
     private String colorPrivate;
 
+    protected int ageProtected;
+
+    String breedDefault;
+
     public String getColorPrivate() {
         return colorPrivate;
     }
@@ -14,9 +18,6 @@ public class Animal {
         this.colorPrivate = colorPrivate;
     }
 
-    protected int ageProtected;
-
-    String breedDefault;
 
     public void speakPublic(){
         eatPrivate();

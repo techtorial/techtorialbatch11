@@ -28,13 +28,18 @@ public class StudentInfo {
         student3.put("Gender", "M");
         student3.put("City", "Winnetka");
 
-        HashMap <String, String>  student4 = new HashMap<>();
-        student4.put("FirstName","Sarah");
+        HashMap   student4 = new HashMap<>();
+        student4.put("FirstName",12);
         student4.put("LastName","Star");
         student4.put("Age", "29");
         student4.put("Gender", "F");
         student4.put("City", "Chicago");
         student4.put("First", "");
+
+        for(Object str :student4.values()){
+
+            String str1 = (String)str;
+        }
 
         List < HashMap<String , String> > studentList = new ArrayList<>();
         studentList.add(student1);
