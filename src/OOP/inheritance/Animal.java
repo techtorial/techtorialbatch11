@@ -2,7 +2,7 @@ package OOP.inheritance;
 
 public class Animal {
 
-    String name="XXX";
+    public String name="XXX";
     String gender;
     int age;
 

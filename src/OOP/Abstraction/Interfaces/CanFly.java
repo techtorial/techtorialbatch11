@@ -8,4 +8,8 @@ public interface CanFly {
     // all methods in interface are public and abstract
       void fly();
 
+     public default void info(){
+          System.out.println("Info of CanFly: "+numTail +" - "+NUMOFWINGS);
+      }
+
 }
