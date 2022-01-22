@@ -1,8 +1,8 @@
 package OOP.Abstraction.AbstractClasses;
 
-public abstract class CampusStudent extends Student{
+public abstract class CampusStudent extends Student {
 
-    public CampusStudent(){
+    public CampusStudent() {
         super("Zack", 55);
     }
 }

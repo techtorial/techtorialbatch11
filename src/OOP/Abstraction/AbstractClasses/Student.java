@@ -19,4 +19,6 @@ public abstract class Student {
         System.out.println("Student is eating");
     }
 
+    abstract  void sleep(int hour);
+
 }
