@@ -17,6 +17,7 @@ public class IfStatementAndTernaryOperators {
         }else{
             System.out.println("I do not like animal");
         }
+        String name = (cat>dog&&rabbit<dog||cat<rabbit) ? "I LOVE ANIMALS":"I DON'T LIKE ANIMALS";
         String results =(cat>dog)? "yes":"no";
         System.out.println(results);
         System.out.println((cat<dog)? "yes":123);

@@ -24,6 +24,7 @@ public class GarbageCollection {
       No, because it works all the time automatically.
      */
     public static void main(String[] args) {
+
         String name = null;
         String nsds="afd";
         String asds=name;
@@ -31,7 +32,6 @@ public class GarbageCollection {
 
 
     }
-
     @Override
     protected void finalize()  {
         System.out.println("there is a garbage");

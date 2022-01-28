@@ -1,6 +1,7 @@
 package MentoringWithAhmet.RecapJava;
 
 public class ArrayList {
+
     /*
     INTERVIEW QUESTION:
     1)What is the difference between Array and ArrayList ?
