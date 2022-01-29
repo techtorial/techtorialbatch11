@@ -41,7 +41,23 @@ public class ArraysAndSplitMethod {
             System.out.print(reverse+ ",");
 
         }
+        //sum of the numbers;
+
+            String numbers= "123456";
+            int sum =0;
+            String[] numberArray = numbers.split("");
+            System.out.println(Arrays.toString(numberArray));
+            for(int i = 0 ; i<numberArray.length;i++){
+                sum+=Integer.parseInt(numberArray[i]);
+
+            }
+            String result =String.valueOf(sum);
+            System.out.println(result);
+            //System.out.println(result-22);
+            System.out.println(sum-22);
+
+        }
+
 
     }
 
-}

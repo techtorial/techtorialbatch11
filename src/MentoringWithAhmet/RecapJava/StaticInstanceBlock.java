@@ -19,23 +19,29 @@ public class StaticInstanceBlock {
     **it can be accessed by other classes without creating an object.
 
      */
+    static int food=20;
 
-    {
-        System.out.println("I am a instance block");
+    public void eating(){
+        System.out.println("you are eating ");
+        --food;
     }
-    {
-        System.out.println("I am a second instance block");
-    }
-    static{
-        System.out.println("I am a static block");
-    }
-    static{
-        System.out.println("I am the second static block");
-    }
-    public static void run(){
-        System.out.println("people are running");
 
-    }
+//    {
+//        System.out.println("I am a instance block");
+//    }
+//    {
+//        System.out.println("I am a second instance block");
+//    }
+//    static{
+//        System.out.println("I am a static block");
+//    }
+//    static{
+//        System.out.println("I am the second static block");
+//    }
+//    public static void run(){
+//        System.out.println("people are running");
+//
+//    }
 
 
 }
